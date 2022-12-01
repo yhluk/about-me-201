@@ -99,4 +99,5 @@ for (let i = 0; i < 4; i++) {
     }
   }
 }
+// alert(`All possible answers were: ${carArray}`);
 alert(`Thanks ${userName} this survey was extremley fun you got ${score} correct answers`);
