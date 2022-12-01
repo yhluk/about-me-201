@@ -1,11 +1,43 @@
 h1 {
+  background-color: #6f802c;
   font-family: times;
   color: black;
+  width: 185px;
+  font-size: 2.5em;
+  margin: auto;
+  text-shadow: 5px 5px 5px 5px red;
 }
 
 p {
-  color: olive;
+  color: rgb(122, 8, 8);
+  font-family: verdana, sans-serif;
+  font-size: 1.5em;
+  margin: 10px;
+  /* text-align: justify; */
 }
 body{
   background-color: burlywood;
 }
+h2{
+  color: blue;
+  align-self: center;
+  width: 385px;
+  margin: auto;
+}
+footer{
+  width: 385px;
+  margin: auto;
+}
+ol{
+  list-style: decimal;
+  color: rgb(18, 80, 213); 
+  
+}
+ul{
+  margin: 20px;
+  list-style-type: disc;
+}
+/* li{
+  display: list-item;
+
+} */
