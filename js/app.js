@@ -57,7 +57,7 @@
 // // console.log(Sorry, but No);
 // console.log('question1 =' + qFive);
 
-let myAge = 29;
+let myAge = '29';
 
 for (let i = 0; i < 4; i++) {
   let qSix = prompt('How old do You think I am, you have 4 tries for this one');
@@ -73,7 +73,7 @@ for (let i = 0; i < 4; i++) {
     alert('I know that I look young, but I`m older than that');
   }
   if (i === 3) {
-    alert(`My age is ${myAge}`)
+    alert(`My age is ${myAge}`);
   }
 
 
@@ -88,4 +88,4 @@ for (let i = 0; i < 4; i++) {
 
 // alert(`Thanks ${userName} this survey was extremley fun`);
 
-
+}
