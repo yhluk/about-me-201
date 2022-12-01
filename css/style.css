@@ -29,12 +29,13 @@ footer{
   margin: auto;
 }
 ol{
+  margin: 50px;
   list-style: decimal;
   color: rgb(18, 80, 213); 
   
 }
 ul{
-  margin: 20px;
+  margin: 50px;
   list-style-type: disc;
 }
 /* li{
