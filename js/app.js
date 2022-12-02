@@ -7,16 +7,16 @@ console.log('user name=' + userName);
 
 // let score = 0;
 
-// let qOne = prompt('Was I born before 2000').toLowerCase();
-// if (qOne === 'yes' || qOne === 'y') {
-//   alert('Correct');
-//   score++;
-//   // console.log('Correct');
-// } else if (qOne === 'no' || qOne === 'n') {
-//   alert('Sorry, but No');
-// }
-// // console.log(Sorry, but No);
-// console.log('question1 =' + qOne);
+let qOne = prompt('Was I born before 2000').toLowerCase();
+if (qOne === 'yes' || qOne === 'y') {
+  alert('Correct');
+  score++;
+  // console.log('Correct');
+} else if (qOne === 'no' || qOne === 'n') {
+  alert('Sorry, but No');
+}
+// console.log(Sorry, but No);
+console.log('question1 =' + qOne);
 
 
 let qTwo = prompt('Do I like wrestling?').toLowerCase();
