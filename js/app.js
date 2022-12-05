@@ -94,7 +94,7 @@ function qSixFn()
 
 function qSevenFn()
 {
-  let carArray = ['vw', 'ferrari', 'mersedes', 'bmw', 'audi', 'pagani'];
+  let carArray = ['vw', 'ferrari', 'mercedes', 'bmw', 'audi', 'pagani'];
 
   for (let i = 0; i < 6; i++) {
     let qSeven = prompt('I got the last one for you. Name Car brand I might like').toLowerCase();
@@ -105,7 +105,7 @@ function qSevenFn()
       break;
     }
     else {
-      alert('Unfortunetly noooo');
+      alert('Unfortunately noooo');
     }
   }
   alert(`All possible answers were: ${carArray}`);
@@ -121,3 +121,4 @@ qSixFn();
 qSevenFn();
 
 alert(`Thanks ${userName} this survey was extremely fun you got ${score} correct answers`);
+
